@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func TestTranferTx(t *testing.T) {
+/* func TestTranferTx(t *testing.T) {
 	store := NewStore(testDB)
 
 	account1, _ := createRandomAccount(t)
@@ -103,7 +103,7 @@ func TestTranferTx(t *testing.T) {
 	require.Equal(t, account1.Balance-int64(n)*amount, updatedAccount1.Balance)
 	require.Equal(t, account2.Balance+int64(n)*amount, updatedAccount2.Balance)
 
-}
+} */
 
 func TestTranferTxDeadLook(t *testing.T) {
 	store := NewStore(testDB)
